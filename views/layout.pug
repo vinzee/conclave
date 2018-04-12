@@ -17,8 +17,6 @@ html(lang="en")
         .editor
           .header
             block link
-            button#download(type='button') Save
-            label#upload(for='file') Upload
             input#file(type='file' accept='.txt, .js, .rb, .md')
           textarea(row='10' col='20')
         p#peerId Peers:
@@ -42,8 +40,6 @@ html(lang="en")
         .sk-circle10.sk-circle
         .sk-circle11.sk-circle
         .sk-circle12.sk-circle
-      p Conclave currently supports Chrome or Firefox desktop browsers.
-      p <strong>Note:</strong> Chrome v63 introduced a bug that causes sporadic issues. If loading takes longer than 10 sec, please upgrade to Chrome v64 or consider using Firefox.
     script(src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js")
     script.
       feather.replace({ 'stroke-width': 3 });
